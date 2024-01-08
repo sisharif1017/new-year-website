@@ -30,4 +30,103 @@ nav{
     padding-top: 40px;
     padding-bottom: 0px;
 }
+.title-discription{
+    color:#070211 ;
+    text-align: center;
+    font-family: 'inter',Arial, Helvetica, sans-serif ;
+    font-size: 45px;
+    font-weight: 700;
+    padding-top: 10px;
+    
+}
+.title-img{
+    margin-top: 48px;
+    margin-left: 270px;
+}
+/* welcome banner style */
+.banner-style{
+    margin: 120px;
+    background-image: linear-gradient(to right,rgba(7,2,17,0.9),rgba(7,2,17,0.5)),url('../images/Vectorrr.png');
+    width: 1320px;
+    height: 600px;
+    display: flex;
+}
+.banner-title{
+    color: #FFF;
+    font-size: 65PX;
+    padding-top: 125px;
+    padding-left: 125px ;
+    padding-bottom: 0px;
+    
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7px;
+}
+.banner-text{
+   color: rgba(255,255,255,0.80);
+   padding-top: 24px;
+   padding-left: 125px;
+   padding-bottom: 0px;
+   font-family: 'inter',Verdana, Geneva, Tahoma, sans-serif;
+   font-size: 18px;
+   font-weight: 400;
+   line-height: 30px;
+
+}
+.banner-button{
+    margin-top: 40px;
+    margin-left: 157px;
+    color: #FFF;
+    text-align: center;
+    font-family: 'inter',Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    background: none;
+    border: none;
+    text-transform: uppercase;
+
+}
+.banner-image{
+    padding-top: 68px;
+    padding-left: 38px;
+}
+/* place-style */
+.place-name{
+    width: 1320px;
+    margin-top: 220px;
+    height: 482px;
+
+    background: linear-gradient(rgba(255,0,0,0.10));
+    border-radius: 15px;
+}
+.place-name{
+    color: #070211;
+    font-family: 'inter',Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    text-align: center;
+    padding-top: 100px;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+}
+.span{
+    color: rgb(155, 35, 35);
+}
+.place-name > button{
+    width: 120px;
+    height: 40px;
+    margin-left: 600px;
+    margin-top: 48px;
+    border-radius: 8px;
+    background-color: #F00;
+    border: o;
+}
+.place-buttom > a{
+    color: #FFF;
+    text-align: center;
+    font-family: 'inter',Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
 
