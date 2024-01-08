@@ -1,0 +1,33 @@
+nav{
+    
+    color: white;
+    width: 1300px;
+    height: 600px;
+    text-align: center;
+    background-image: url('../images/Banner\ Image.png');
+    background-size: cover;
+}
+.new{
+    font-size: 72px;
+    padding: 20px;
+}
+/* main style */
+.title{
+    color:#F00 ;
+    text-align: center;
+    font-family: 'inter',Arial, Helvetica, sans-serif ;
+    font-size: 90px;
+    font-weight: 800;
+    padding-top: 120px;
+    padding-bottom: 0px;
+}
+.title-container{
+    color:#F00 ;
+    text-align: center;
+    font-family: 'inter',Arial, Helvetica, sans-serif ;
+    font-size: 26px;
+    font-weight: 500;
+    padding-top: 40px;
+    padding-bottom: 0px;
+}
+
