@@ -6,25 +6,29 @@ nav{
     text-align: center;
     background-image: url('../images/Banner\ Image.png');
     background-size: cover;
+    padding-left: 200px;
+    margin-left: 1200px;
 }
 .new{
-    font-size: 72px;
+    font-size: 120v px;
     padding: 20px;
+    text-align: center;
 }
 /* main style */
+
 .title{
-    color:#F00 ;
+    color:rgb(224, 22, 22) ;
     text-align: center;
-    font-family: 'inter',Arial, Helvetica, sans-serif ;
-    font-size: 90px;
+    font-family: 'inter',sans-serif ;
+    font-size: 132px;
     font-weight: 800;
     padding-top: 120px;
     padding-bottom: 0px;
 }
 .title-container{
     color:#F00 ;
-    text-align: center;
-    font-family: 'inter',Arial, Helvetica, sans-serif ;
+    text-align: middle;
+    font-family: 'inter',sans-serif ;
     font-size: 26px;
     font-weight: 500;
     padding-top: 40px;
@@ -32,20 +36,21 @@ nav{
 }
 .title-discription{
     color:#070211 ;
-    text-align: center;
-    font-family: 'inter',Arial, Helvetica, sans-serif ;
+    text-align: left;
+    font-family: 'inter',sans-serif ;
     font-size: 45px;
     font-weight: 700;
     padding-top: 10px;
     
 }
 .title-img{
+    display: ;
     margin-top: 48px;
     margin-left: 270px;
 }
 /* welcome banner style */
 .banner-style{
-    margin: 120px;
+    margin: 1200px;
     background-image: linear-gradient(to right,rgba(7,2,17,0.9),rgba(7,2,17,0.5)),url('../images/Vectorrr.png');
     width: 1320px;
     height: 600px;
@@ -194,5 +199,82 @@ nav{
     padding-left: 50px;
     width: 140px;
     height: 140px;
-    
+
 }
+
+/* holiday style */
+
+.holiday{
+    width: 1320px;
+    margin-top: 120px;
+    text-align: center;
+    height: auto;
+    border-radius: 15px;
+}
+
+.title{
+    color: #070211;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.container{
+    color: #070211;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.container span{
+    color: #F00;
+    padding-top: 5px;
+    text-align: center;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.text{
+    color: rgba(7, 2, 17, 0.60);
+    padding-top: 15px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+
+/* four image style */
+.images-all{
+    width: 1320px;
+    height: 650px;
+    display: flex;
+    background-image:url('../resources/Rectangle\ 2.png') ;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    margin-top: 60px;
+    border-radius: 15px;
+}
+
+.imgno-1{
+    width: 600px;
+    height: auto;
+    margin-left: 100px;
+}
+
+.imgno-2{
+    width: 400px;
+    height: 400px;
+    margin-top: 21px;
+    margin-left: 220px;
+    background-image: url('../resources/Rectangle\ 1.png');
+    background-size: cover;
+}
+
+.imgno-3{
+    width: 206.841px;
+    height: 206.841px;
+    margin-left: -100px;
+    padding-top: 100px;
+}
+
