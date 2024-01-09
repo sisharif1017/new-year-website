@@ -7,7 +7,7 @@ nav{
     background-image: url('../images/Banner\ Image.png');
     background-size: cover;
     padding-left: 200px;
-    margin-left: 1200px;
+    margin-left: 120px;
 }
 .new{
     font-size: 120v px;
@@ -19,7 +19,7 @@ nav{
 .title{
     color:rgb(224, 22, 22) ;
     text-align: center;
-    font-family: 'inter',sans-serif ;
+    font-family: 'inter',sans-serif;
     font-size: 132px;
     font-weight: 800;
     padding-top: 120px;
@@ -44,13 +44,13 @@ nav{
     
 }
 .title-img{
-    display: ;
+    display:flex ;
     margin-top: 48px;
     margin-left: 270px;
 }
 /* welcome banner style */
 .banner-style{
-    margin: 1200px;
+    margin: 120px;
     background-image: linear-gradient(to right,rgba(7,2,17,0.9),rgba(7,2,17,0.5)),url('../images/Vectorrr.png');
     width: 1320px;
     height: 600px;
@@ -91,9 +91,10 @@ nav{
     text-transform: uppercase;
 
 }
-.banner-image{
+.banner-right{
     padding-top: 68px;
-    padding-left: 38px;
+   
+    margin-left: 120px;
 }
 /* place-style */
 .place-name{
@@ -106,7 +107,7 @@ nav{
 }
 .place-name{
     color: #070211;
-    font-family: 'inter',Arial, Helvetica, sans-serif;
+    font-family: 'inter',sans-serif;
     font-size: 32px;
     text-align: center;
     padding-top: 100px;
@@ -277,4 +278,78 @@ nav{
     margin-left: -100px;
     padding-top: 100px;
 }
+/*The best Gift Style*/
+
+.gift-title{
+    color: #F00;
+    padding-top: 120px;
+    padding-bottom: 0px;
+    font-size: 24px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+
+.gift-container{
+    color: #070211;
+    padding-top: 15px;
+    padding-bottom: 0px;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+.gift-text{
+    color: rgba(7, 2, 17, 0.60);
+    padding-top: 15px;
+    padding-bottom: 0px;
+    font-family: 'Inter',sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 40px;
+}
+/* Image Shop Style */
+
+.image-shop-all{
+    width: 1320px;
+    height: 920px;
+    margin-top:20px;
+    border-radius: 10px;
+}
+
+.1st-image-shop{
+    width: 100%;
+    height: 50%;
+    display: flex;
+}
+
+.1st-image-shop img{
+    width: 500px;
+    height: 440px;
+    padding: 10px 16px 8px 15px;
+}
+
+.1st-image-shop img:hover{
+    box-shadow:inset 0px 0px 15px gray,
+    0px 0px 15px gray;
+    border-radius: 10px;
+}
+
+.2nd-image-shop{
+    width: 100%;
+    height: 50%;
+    display: flex;
+}
+
+.2nd-image-shop img{
+    width: 500px;
+    height: 440px;
+    padding: 10px 16px 8px 15px;
+}
+
+.2nd-image-shop img:hover{
+    box-shadow:inset 0px 0px 15px gray,
+    0px 0px 15px gray;
+    border-radius: 10px;
+}
+
 
