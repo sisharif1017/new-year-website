@@ -1,12 +1,12 @@
 nav{
     
-    color: white;
-    width: 1300px;
-    height: 600px;
+    color: rgb(238, 222, 222);
+    width: 900px;
+    height: 500px;
     text-align: center;
     background-image: url('../images/Banner\ Image.png');
     background-size: cover;
-    padding-left: 200px;
+    padding-left: 300px;
     margin-left: 120px;
 }
 .nav-header{
@@ -16,7 +16,7 @@ nav{
     
 }
 .new{
-    font-size: 120px;
+    font-size: 80px;
     padding: -200px;
     text-align: center;
 }
@@ -28,11 +28,11 @@ nav{
     font-family: 'inter',sans-serif;
     font-size: 132px;
     font-weight: 800;
-    padding-top: 120px;
+    padding-top: 80px;
     padding-bottom: 0px;
 }
 .title-container{
-    color:#F00 ;
+    color:rgb(0, 0, 0) ;
     text-align:center;
     font-family: 'inter',sans-serif ;
     font-size: 30px;
@@ -105,7 +105,7 @@ nav{
 /* place-style */
 .place-name{
     width: 1320px;
-    margin-top: 220px;
+    margin-top: 120px;
     height: 482px;
 
     background: linear-gradient(rgba(255,0,0,0.10));
@@ -116,13 +116,13 @@ nav{
     font-family: 'inter',sans-serif;
     font-size: 32px;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 50px;
     font-weight: 600;
     line-height: 56px;
     text-transform: capitalize;
 }
 span{
-    color: rgb(212, 49, 49);
+    color: rgb(241, 87, 87);
 }
 .place-name > button{
     width: 120px;
@@ -130,7 +130,7 @@ span{
     margin-left: 600px;
     margin-top: 48px;
     border-radius: 8px;
-    background-color: #F00;
+    background-color: rgb(114, 91, 91);
     border: o;
 }
 .place-buttom > a{
@@ -146,7 +146,7 @@ span{
 
 .comming-soon{
     width: 1320px;
-    margin-top: 220px;
+    margin-top: 50px;
     height: 482px;
     display: flex;
     border-radius: 15px;
@@ -157,7 +157,7 @@ span{
 }
 .title{
     color: #F00;
-    padding-top: 110px;
+    padding-top: 80px;
     font-family: 'inter',sans-serif;
     font-size: 24px;
     font-weight: 500;
@@ -220,16 +220,16 @@ span{
 }
 
 .title{
-    color: #070211;
+    color: #26134d;
     font-family: 'Inter', sans-serif;
-    font-size: 24px;
+    font-size: 28px;
     font-weight: 500;
 }
 
 .container{
     color: #070211;
     font-size: 72px;
-    font-weight: 900;
+    font-weight: 8520;
 }
 
 .container span{
@@ -240,13 +240,13 @@ span{
     font-weight: 900;
 }
 
-.text{
+.text-h{
     color: rgba(7, 2, 17, 0.60);
-    padding-top: 15px;
+    padding-top: 0px;
     text-align: center;
     font-family: 'Inter', sans-serif;
-    font-size: 20px;
-    font-weight: 500;
+    font-size: 30px;
+    font-weight: 100;
     line-height: 32px;
 }
 
@@ -256,7 +256,7 @@ span{
     width: 1320px;
     height: 650px;
     display: flex;
-    background-image:url('../resources/Rectangle\ 2.png') ;
+    background-image:url('/images/Rectangle\ 2.png ') ;
     background-repeat: no-repeat;
     background-position: bottom;
     margin-top: 60px;
@@ -274,7 +274,7 @@ span{
     height: 400px;
     margin-top: 21px;
     margin-left: 220px;
-    background-image: url('../resources/Rectangle\ 1.png');
+    background-image: url('../images/Rectangle\ 1.png ');
     background-size: cover;
 }
 
@@ -287,7 +287,7 @@ span{
 /*The best Gift Style*/
 
 .gift-title{
-    color: #F00;
+    color: rgb(85, 16, 16);
     padding-top: 120px;
     padding-bottom: 0px;
     font-size: 34px;
@@ -297,7 +297,7 @@ span{
 }
 
 .gift-container{
-    color: #070211;
+    color: #190147;
     padding-top: 15px;
     padding-bottom: 0px;
     font-size: 48px;
@@ -307,7 +307,7 @@ span{
 }
 
 .gift-text{
-    color: rgba(7, 2, 17, 0.60);
+    color: rgba(41, 28, 68, 0.6);
     padding-top: 15px;
     padding-bottom: 0px;
     font-family: 'Inter',sans-serif;
@@ -318,15 +318,15 @@ span{
 /* Image Shop Style */
 
 .image-shop-all{
-    width: 1320px;
-    height: 920px;
+    width: 1300px;
+    height: 940px;
     margin-top:20px;
     border-radius: 10px;
 }
 
 .1st-image-shop{
     width: 100%;
-    height: 50%;
+    height: 60%;
     display: flex;
 }
 
@@ -339,12 +339,12 @@ span{
 .1st-image-shop img:hover{
     box-shadow:inset 0px 0px 15px gray,
     0px 0px 15px gray;
-    border-radius: 10px;
+    border-radius: 12px;
 }
 
 .2nd-image-shop{
     width: 100%;
-    height: 50%;
+    height: 60%;
     display: flex;
 }
 
@@ -357,7 +357,7 @@ span{
 .2nd-image-shop img:hover{
     box-shadow:inset 0px 0px 15px gray,
     0px 0px 15px gray;
-    border-radius: 10px;
+    border-radius: 12px;
 }
 /* mail style */
 
@@ -365,25 +365,25 @@ span{
 
 .mail-section{
     margin-top: 120px;
-    width: 1320px;
-    height: 616px;
-    border-radius: 16px;
+    width: 1220px;
+    height: 600px;
+    border-radius: 0px;
     background: rgba(255, 0, 0, 0.05);
 }
 
 
 .mail-section img{
-    width: 150px;
-    height: 150px;
+    width: 160px;
+    height: 160px;
     padding-top: 80px;
-    padding-left: 580px;
+    padding-left: 570px;
 }
 
 .mail-title{
     color: #070211;
-    font-size: 48px;
-    font-weight: 900;
-    padding-top: 40px;
+    font-size: 50px;
+    font-weight: 800;
+    padding-top: 44px;
     padding-left: 400px;
     text-transform: capitalize;
 }
@@ -393,21 +393,21 @@ span{
     padding-top: 20px;
     text-align: center;
     font-family: 'Inter', sans-serif;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 32px;
+    font-size: 22px;
+    font-weight: 410;
+    line-height: 34px;
 }
 
 #email {
-    width: 448px;
-    height: 72px;
+    width: 450px;
+    height: 74px;
     margin-top: 30px;
     border: none;
     margin-left: 360px;
     border-radius: 50px 0px 0px 50px;
     background: #FFF;
     color: rgba(7, 2, 17, 0.30);
-    padding-left: 30px;
+    padding-left: 28px;
     font-family: 'Inter', sans-serif;
     font-size: 18px;
     font-weight: 400;
@@ -416,9 +416,9 @@ span{
 .email-btn{
     width: 200px;
     height: 72px;
-    background: #F00;
+    background: rgb(121, 19, 19);
     border-radius: 0px 50px 50px 0px;
-    color: #FFF;
+    color: #e6e0e0;
     text-align: center;
     font-family: 'Inter', sans-serif;
     font-size: 20px;
@@ -429,7 +429,7 @@ span{
 }
 
 .email-btn:hover{
-    color: red;
+    color: rgb(51, 4, 4);
     background-color: black;
 }
 /* Footer Style */
@@ -484,14 +484,14 @@ footer{
     margin-top: -5px;
     height: auto;
     padding-left: 30px;
-    margin-left: 1120px;
+    margin-left: 1100px;
 }
 
 .email img{
     padding-right: 10px;
     padding-bottom: -10px;
-    width: 24px;
-    height: 24px;
+    width: 28px;
+    height: 26px;
 }
 
 
@@ -500,8 +500,8 @@ footer{
     margin-left: 150px;
     justify-content: center;
     display: flex;
-    width: 1230px;
-    height: 160px;
+    width: 1220px;
+    height: 170px;
     border-top: 1px solid rgba(255, 255, 255, 0.15); ;
     border-bottom: 1px solid rgba(255, 255, 255, 0.15);;
 }
@@ -509,15 +509,15 @@ footer{
 .footer-div img{
     padding-top: 45px;
     padding-left: 30px;
-    width: 64px;
-    height: 64px;
+    width: 65px;
+    height: 65px;
 }
 
 .address{
     width: 400px;
     height: auto;
     padding-top: 60px;
-    padding-left:140px ;
+    padding-left:142px ;
     color: #FFF;
     font-size: 30px;
     font-weight: 500;
@@ -527,7 +527,7 @@ footer{
 .last{
     width: 600px;
     height: auto;
-    margin-left:1170px ;
+    margin-left:1172px ;
     margin-top: -40px;
     color: #FFF;
     font-size: 30px;
